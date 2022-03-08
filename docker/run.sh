@@ -83,8 +83,8 @@ DATA_VOLUME="\
 --volume $PWD/$CLASSIFY_DIR/data:$DOCKER_ROOT/$CLASSIFY_DIR/data \
 --volume $PWD/$CLASSIFY_DIR/models:$DOCKER_ROOT/$CLASSIFY_DIR/models \
 --volume $PWD/$DETECTION_DIR/data:$DOCKER_ROOT/$DETECTION_DIR/data \
---volume $PWD/$DETECTION_DIR/models:$DOCKER_ROOT/$DETECTION_DIR/models\
---volume $PWD/my-recognition-python:$DOCKER_ROOT//my-recognition-python"
+--volume $PWD/$DETECTION_DIR/models:$DOCKER_ROOT/$DETECTION_DIR/models \
+--volume $PWD/my-recognition-python:$DOCKER_ROOT/my-recognition-python"
 
 # parse user arguments
 USER_VOLUME=""
